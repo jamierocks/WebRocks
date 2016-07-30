@@ -1,0 +1,22 @@
+{
+    "name": "webrocks",
+    "version": "1.0.0",
+    "private": false,
+    "description": "My personal website.",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jamierocks/WebRocks.git"
+    },
+    "bugs": {
+        "url": "https://github.com/jamierocks/WebRocks/issues"
+    },
+    "homepage": "https://www.jamierocks.uk/",
+    "dependencies": {},
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-cssmin": "^0.1.7",
+        "gulp-rename": "^1.2.2",
+        "gulp-sass": "^2.3.2"
+    },
+    "license": "MIT"
+}
