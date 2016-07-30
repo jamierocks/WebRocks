@@ -30,6 +30,12 @@ func GetPosts() []Post {
     return posts
 }
 
+func GetPost(slug string) Post {
+    var post Post
+    modules.DB.Where(&Post{Slug: slug}).FirstOrInit(&post)
+    return post
+}
+
 type PostSlice []Post
 
 func (p PostSlice) Len() int {
