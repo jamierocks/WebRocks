@@ -115,6 +115,10 @@
     border: 10px solid rgba(51, 51, 51, 0.3);
 }
 
+.projects img:hover {
+    transform: scale(1.1);
+}
+
 .footer {
     width: 100%;
     text-align: center;
