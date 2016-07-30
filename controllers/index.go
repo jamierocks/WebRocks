@@ -12,5 +12,5 @@ func GetIndex(ctx *macaron.Context) {
 
 func NotFound(ctx *macaron.Context) {
     ctx.Data["title"] = "404 Not Found - Jamie Mansfield"
-    ctx.HTML(http.StatusNotFound, "404")
+    ctx.HTML(http.StatusOK, "404")
 }
