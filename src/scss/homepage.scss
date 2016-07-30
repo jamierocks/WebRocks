@@ -74,13 +74,9 @@
   }
 }
 
-.main
-
-.about {
+.section {
   width: 100%;
   text-align: center;
-
-  background-color: white;
 
   h1 {
     color: #0074D9;
@@ -96,20 +92,16 @@
   }
 }
 
+.about {
+  @extend .section;
+
+  background-color: white;
+}
+
 .projects {
-  width: 100%;
-  text-align: center;
+  @extend .section;
 
   background-color: #f3efe0;
-
-  h1 {
-    color: #0074D9;
-    font-size: 50px;
-  }
-
-  h3 {
-    color: rgba(51, 51, 51, 0.65);
-  }
 
   img {
     width: 275px;

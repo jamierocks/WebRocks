@@ -52,31 +52,22 @@
     border-color: rgba(51, 51, 51, 0.65);
     opacity: 0.3; }
 
-.main
-.about {
+.section, .about, .projects {
   width: 100%;
-  text-align: center;
-  background-color: white; }
-  .main
-.about h1 {
+  text-align: center; }
+  .section h1, .about h1, .projects h1 {
     color: #0074D9;
     font-size: 50px; }
-  .main
-.about h3 {
+  .section h3, .about h3, .projects h3 {
     color: rgba(51, 51, 51, 0.65); }
-  .main
-.about p {
+  .section p, .about p, .projects p {
     font-size: 17px; }
 
+.about {
+  background-color: white; }
+
 .projects {
-  width: 100%;
-  text-align: center;
   background-color: #f3efe0; }
-  .projects h1 {
-    color: #0074D9;
-    font-size: 50px; }
-  .projects h3 {
-    color: rgba(51, 51, 51, 0.65); }
   .projects img {
     width: 275px;
     border-radius: 50%;
