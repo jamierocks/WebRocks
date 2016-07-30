@@ -4,6 +4,19 @@
 <link rel="stylesheet" type="text/css" href="/assets/css/blog.min.css">
 {% endblock %}
 
+{% block precontent %}
+<div class="backdrop"></div>
+<div class="overlay">
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Blog</h1>
+            <p>"Design is not just what it looks like and feels like. Design is how it works."</p>
+            <p>- Steve Jobs</p>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
 {% block content %}
 <div class="blog">
     {% for post in posts %}
