@@ -133,3 +133,5 @@ fabric.properties
 
 ### WebRocks ###
 webrocks
+webrocks.ini
+webrocks.db
