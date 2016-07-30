@@ -9,7 +9,7 @@ type Post struct {
     ID int64 `gorm:"primary_key"`
     Title string
     Slug string
-    Content string `gorm:"size:5000"`
+    Content string `gorm:"type:mediumtext"`
 
     Author Author
     AuthorID int64
