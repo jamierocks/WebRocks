@@ -3,6 +3,7 @@ package main
 import (
     "github.com/jamierocks/webrocks/controllers"
     "github.com/jamierocks/webrocks/modules"
+    "github.com/jamierocks/webrocks/models"
     "github.com/go-macaron/pongo2"
     "gopkg.in/macaron.v1"
 )
@@ -13,6 +14,7 @@ func main() {
 
     // Initialise database
     modules.InitDatabase()
+    models.AutoMigrate()
 
     // Initialise Macaron
     m := macaron.Classic()
