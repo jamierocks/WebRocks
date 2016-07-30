@@ -13,6 +13,7 @@ func main() {
 
     // Register routes
     m.Get("/", controllers.GetIndex)
+    m.NotFound(controllers.NotFound)
 
     // Start Macaron
     m.Run()
