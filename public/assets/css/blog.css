@@ -1,0 +1,9 @@
+.blog {
+  width: 100%;
+  left: 0; }
+  .blog .post {
+    width: 100%;
+    left: 0;
+    background-color: #f3efe0; }
+    .blog .post:nth-child(2n + 1) {
+      background-color: white; }

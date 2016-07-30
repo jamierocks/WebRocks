@@ -22,6 +22,8 @@ func main() {
 
     // Register routes
     m.Get("/", controllers.GetIndex)
+    m.Get("/blog", controllers.GetBlog)
+
     m.NotFound(controllers.NotFound)
 
     // Start Macaron

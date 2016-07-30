@@ -9,7 +9,7 @@ type Post struct {
     ID int64 `gorm:"primary_key"`
     Title string
     Slug string
-    Content string
+    Content string `gorm:"size:5000"`
 
     Author Author
     AuthorID int64
@@ -22,4 +22,10 @@ func (b Post) GetAuthor() Author {
     var author Author
     modules.DB.Model(&b).Related(&author)
     return author
+}
+
+func GetPosts() []Post {
+    var posts []Post
+    modules.DB.Find(&posts)
+    return posts
 }

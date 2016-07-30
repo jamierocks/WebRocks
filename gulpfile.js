@@ -12,6 +12,10 @@ gulp.task('scss', function () {
         .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest('./public/assets/css'));
 
+    gulp.src('./src/scss/blog.scss')
+        .pipe(sass().on('error', sass.logError))
+        .pipe(gulp.dest('./public/assets/css'));
+
     return gulp.src('./src/scss/base.scss')
         .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest('./public/assets/css'));
@@ -19,6 +23,11 @@ gulp.task('scss', function () {
 
 gulp.task('build', ['scss'], function () {
     gulp.src('./public/assets/css/homepage.css')
+        .pipe(cssmin())
+        .pipe(rename({suffix: '.min'}))
+        .pipe(gulp.dest('./public/assets/css'));
+
+    gulp.src('./public/assets/css/blog.css')
         .pipe(cssmin())
         .pipe(rename({suffix: '.min'}))
         .pipe(gulp.dest('./public/assets/css'));
