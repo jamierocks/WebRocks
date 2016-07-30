@@ -10,7 +10,9 @@
     <div class="post">
         <div class="container">
             <h1>{{ post.Title }}</h1>
-            <span>Authored by <a href="/author/{{ post.GetAuthor().Slug }}">{{ post.GetAuthor().Name }}</a> </span>
+            <span>
+                Authored by <a href="/author/{{ post.GetAuthor().Slug }}">{{ post.GetAuthor().Name }}</a>
+                Published on {{ post.GetAuthor().CreatedAt }}</span>
             <hr>
             {{ post.Content|safe }}
         </div>

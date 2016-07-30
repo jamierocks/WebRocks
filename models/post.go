@@ -29,3 +29,17 @@ func GetPosts() []Post {
     modules.DB.Find(&posts)
     return posts
 }
+
+type PostSlice []Post
+
+func (p PostSlice) Len() int {
+    return len(p)
+}
+
+func (p PostSlice) Less(i, j int) bool {
+    return p[i].CreatedAt.Before(p[j].CreatedAt)
+}
+
+func (p PostSlice) Swap(i, j int) {
+    p[i], p[j] = p[j], p[i]
+}
