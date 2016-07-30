@@ -22,10 +22,10 @@
     {% for post in posts %}
     <div class="post">
         <div class="container">
-            <h1>{{ post.Title }}</h1>
+            <h1><a href="/blog/{{ post.Slug }}">{{ post.Title }}</a></h1>
             <span>
                 Authored by <a href="/author/{{ post.GetAuthor().Slug }}">{{ post.GetAuthor().Name }}</a>
-                Published on {{ post.GetAuthor().CreatedAt }}</span>
+                Published on {{ post.CreatedAt }}</span>
             <hr>
             {{ post.Content|safe }}
         </div>
