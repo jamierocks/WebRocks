@@ -18,7 +18,6 @@ func GetBlog(ctx *macaron.Context) {
 
 func GetPost(ctx *macaron.Context) {
     post := models.GetPost(ctx.Params("slug"))
-    println(ctx.Params("slug"))
 
     if post.ID != 0 {
         ctx.Data["title"] = post.Title
