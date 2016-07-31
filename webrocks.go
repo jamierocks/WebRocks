@@ -23,7 +23,7 @@ func main() {
     // Register routes
     m.Get("/", controllers.GetIndex)
     m.Get("/blog", controllers.GetBlog)
-    m.Get("/blog/:slug", controllers.GetPost)
+    m.Get("/p/:slug", controllers.GetPost)
 
     m.NotFound(controllers.NotFound)
 
