@@ -1,3 +1,17 @@
+.section, .blog .post {
+  width: 100%;
+  left: 0;
+  padding: 20px;
+  background-color: #f3efe0; }
+  .section h1, .blog .post h1 {
+    margin-top: 0; }
+  .section p, .blog .post p {
+    font-size: 16px; }
+    .section p:last-child, .blog .post p:last-child {
+      margin-bottom: 0; }
+  .section:nth-child(2n + 1), .blog .post:nth-child(2n + 1) {
+    background-color: white; }
+
 .backdrop {
   position: fixed;
   z-index: 1;
@@ -39,16 +53,3 @@
 .blog {
   width: 100%;
   left: 0; }
-  .blog .post {
-    width: 100%;
-    left: 0;
-    padding: 20px;
-    background-color: #f3efe0; }
-    .blog .post h1 {
-      margin-top: 0; }
-    .blog .post p {
-      font-size: 16px; }
-      .blog .post p:last-child {
-        margin-bottom: 0; }
-    .blog .post:nth-child(2n + 1) {
-      background-color: white; }

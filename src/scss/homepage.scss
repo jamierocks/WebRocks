@@ -1,3 +1,5 @@
+@import "section";
+
 .backdrop {
   position: fixed;
   z-index: 1;
@@ -90,17 +92,7 @@
   }
 }
 
-.about {
-  @extend .section;
-
-  background-color: white;
-}
-
 .projects {
-  @extend .section;
-
-  background-color: #f3efe0;
-
   img {
     width: 275px;
 
