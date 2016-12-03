@@ -18,5 +18,5 @@
         "gulp-rename": "^1.2.2",
         "gulp-sass": "^2.3.2"
     },
-    "license": "MIT"
+    "license": "BSD"
 }

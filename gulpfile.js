@@ -1,7 +1,7 @@
 var gulp = require('gulp'),
     sass = require('gulp-sass'),
     cssmin = require('gulp-cssmin'),
-    rename = require('gulp-rename')
+    rename = require('gulp-rename');
 
 gulp.task('watch', ['build'], function () {
     gulp.watch('./src/scss/**/*.scss', ['build']);
@@ -38,6 +38,4 @@ gulp.task('build', ['scss'], function () {
         .pipe(gulp.dest('./public/assets/css'));
 });
 
-gulp.task('default', ['build'], function () {
-
-});
+gulp.task('default', ['build']);
