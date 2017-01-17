@@ -1,0 +1,13 @@
+# General Stuff
+name: Jamie Mansfield
+
+# Blog Articles
+permalink: p/:title/
+
+# Extra plugins
+gems:
+  - jekyll-sitemap
+
+# SASS settings
+sass:
+  style: :compressed
