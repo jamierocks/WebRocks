@@ -1,0 +1,23 @@
+---
+layout: blogbase
+---
+<div class="overlay">
+    <div class="jumbotron">
+        <div class="container">
+            <h1>{{ page.title }}</h1>
+            <p>Authored by {{ page.author }}</p>
+            <p>Published on {{ page.published }}</p>
+        </div>
+    </div>
+</div>
+
+<div class="main">
+    <div class="blog">
+        <div class="post">
+            <div class="container">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+    {% include footer.html %}
+</div>

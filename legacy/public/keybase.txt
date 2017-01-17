@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/jamierocks
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.jamierocks.uk
+  * I am jamierocks (https://keybase.io/jamierocks) on keybase.
+  * I have a public key with fingerprint C076 873C 4C34 3CBB 216E  D420 27F6 918C 0D47 DF94
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101c0216b13b6087cd2e6d892158c81c563210aad1392a245dfaeebd65d0bb255bf0a",
+            "fingerprint": "c076873c4c343cbb216ed42027f6918c0d47df94",
+            "host": "keybase.io",
+            "key_id": "27f6918c0d47df94",
+            "kid": "0101c0216b13b6087cd2e6d892158c81c563210aad1392a245dfaeebd65d0bb255bf0a",
+            "uid": "eb61b62e4579e39fa140dad4fed86119",
+            "username": "jamierocks"
+        },
+        "revoke": {
+            "sig_ids": [
+                "47204c04abedb97bbba55abaa2887e04ce7ab722875dde7d0220ca0c96a2dc3b0f"
+            ]
+        },
+        "service": {
+            "hostname": "www.jamierocks.uk",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1470586290,
+    "expire_in": 157680000,
+    "prev": "6a71085cac96c626ec097994f0ce3267e6b00c1669c608830b0a4a18c6e88494",
+    "seqno": 28,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.55
+Comment: https://keybase.io/crypto
+
+yMJvAnicrZJdbFRFGIa3lCW2UKPxSpQQR6KklM3MnDkzc9ZNhAtSAial8YIYbbbz
+d5bjtucs52y3lIUbQ/kJJdIEQrnwD1Jb/6DYmJiAShGp0VAv1GAwpKYJSaOJhogm
+BkOcs8F4w6VzM5mZ93u/J987l9uaM61NT/85OtLWOX+s6euZOwOZ7RM9H9aBjPQQ
+yNdB2TQ206dNUi2WAw3yACKIFMSISuRICjlTGhuquYeRyxVHyqUORlAIjRwPC0xc
+7QtjpKauhlJi15U+FKAD+EFYMnElDsKqtVWQUc4cRZRDHGV1iBpNMMTMpx7iCmrC
+tO8RW7gjStIKCydFYnJBZO/sodjAu4/+f+YeaNgZSZGk2BCXecbxfIEI1EIT32hO
+EfJSYWLiUPQbq35Z9AcmjlQ5AXs7QGxqUdmkk02CksVOQP5FQBiGREEipNHSY1JK
+4bpCCoE5Z8Y+GSYkw5gzV2vDNMQYKgGVRwXWypHQBz3W2/asBaphns7pXv/BwcHc
+fwy5gbLFq8RRNVJRn33eUa1WknyKVh2qNPRGFu85FWUQahuVraiZOAmiEOSRVapq
+kFojwqDLKfZgBzC7KkFsikGqcG2c0K60j6lZSyoYgtxVwhIriqlR0GOeR3yojIMp
+M1RCqBClnrLpcAdKKIiwSVLDOWkEmZidYQTymFtOUbKednyhqA7EBuy9dPGlpZmm
+1syy7JL0D2daWx7692ePP/dAZnxksrxiXXMSDvfXf80+PPrGnd83nuxWFydnnfNX
+Xv3o+tRTNzeuxKceWx79cer0F/s7h5LjB8/W5rcVz56b+158Of9tMHV3TWn62d17
+viv09RGHx0demO70D4AP2Fd/n75w7XG1LFpf65rsHmlbW1+8saqrcHPbpYnD68nV
+T5dkb/+UXbz17g8zO1/b8/61d3rPzbU8cWNLVzR6d7tYfL306NjKB388s//jn+X4
+hed79/V0t1/d6rzZszuMVhXk0czCwme5v3bd+mXut7HyM4+0fD69cLnzvaMTueF9
+hzcfur26PZktNJ+ot5/fmp2Nrj/5ylszaNOxI7IwUfhmw/DaK2TK+yQ39nbvP9vY
+YDw=
+=/mce
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jamierocks
+
+==================================================================

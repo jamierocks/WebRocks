@@ -1,0 +1,32 @@
+---
+layout: blogbase
+title: Blog
+permalink: /blog/
+---
+<div class="overlay">
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Blog</h1>
+            <p>"Design is not just what it looks like and feels like. Design is how it works."</p>
+            <p>- Steve Jobs</p>
+        </div>
+    </div>
+</div>
+
+<div class="main">
+    <div class="blog">
+        {% for post in site.posts %}
+        <div class="post">
+            <div class="container">
+                <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+                <span>
+                Authored by {{ post.author }}
+                Published on {{ post.published }}</span>
+                <hr>
+                {{ post.content }}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% include footer.html %}
+</div>

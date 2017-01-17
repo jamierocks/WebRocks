@@ -1,5 +1,5 @@
 
-# Created by https://www.gitignore.io/api/osx,linux,windows,node,intellij,visualstudiocode
+# Created by https://www.gitignore.io/api/osx,linux,windows,node,intellij,visualstudiocode,jekyll
 
 ### OSX ###
 .DS_Store
@@ -129,6 +129,12 @@ fabric.properties
 
 ### VisualStudioCode ###
 .vscode
+
+
+### Jekyll ###
+_site/
+.sass-cache/
+.jekyll-metadata
 
 
 ### WebRocks ###
