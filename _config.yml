@@ -1,12 +1,22 @@
 # General Stuff
 name: Jamie Mansfield
+url: https://www.jamierocks.uk
 
 # Blog Articles
 permalink: p/:title/
 
+# Non-Jekyll related files that will slow it down
+exclude:
+  - etc
+  - legacy
+  - node_modules
+  - gulpfile.js
+  - package.json
+
 # Extra plugins
 gems:
   - jekyll-sitemap
+  - jekyll-feed
 
 # SASS settings
 sass:
