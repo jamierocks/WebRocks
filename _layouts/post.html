@@ -4,9 +4,9 @@ layout: blogbase
 <div class="overlay">
     <div class="jumbotron">
         <div class="container">
-            <h1>{{ post.title }}</h1>
-            <p>Authored by {{ post.author }}</p>
-            <p>Published on {{ post.published }}</p>
+            <h1>{{ page.title }}</h1>
+            <p>Authored by {{ page.author }}</p>
+            <p>Published on {{ page.published }}</p>
         </div>
     </div>
 </div>
@@ -15,7 +15,7 @@ layout: blogbase
     <div class="blog">
         <div class="post">
             <div class="container">
-                {{ post.content }}
+                {{ content }}
             </div>
         </div>
     </div>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: LastPass: A review
+title: LastPass - A review
 author: <a href="/a/jamie/">Jamie Mansfield</a>
 published: 2016-01-14 19:10:28 +0000 UTC
 section: blog
