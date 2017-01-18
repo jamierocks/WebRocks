@@ -1,8 +1,12 @@
 ---
-layout: post
+layout: post_trvideo
 title: Asus RT-AC51U Router Review
 author: <a href="/a/jamie/">Jamie Mansfield</a>
 published: Dec 21, 2016
-section: blog
+videoid: ckX-1q82FU0
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ckX-1q82FU0" frameborder="0" allowfullscreen></iframe>
+Look at what just arrived in the post: a new router! Jamie gives a talk about it.
+
+Material used with permission:
+
+- [Jim Yosef - Eclipse](http://nocopyrightsounds.co.uk/video/jim-yosef-eclipse-ncs-release/)

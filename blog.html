@@ -23,6 +23,13 @@ permalink: /blog/
                 Authored by {{ post.author }}
                 Published on {{ post.published }}</span>
                 <hr>
+
+                {% if post.videoid %}
+                <b><i>This is an article for the corresponding TechRocks YouTube video.</i></b><br>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ post.videoid }}" frameborder="0" allowfullscreen></iframe>
+                {% endif %}
+
                 {{ post.content }}
             </div>
         </div>
