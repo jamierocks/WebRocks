@@ -49,6 +49,18 @@
       padding-right: 8px;
     }
   }
+
+  .bottom {
+    position: absolute;
+
+    top: 92%;
+    left: 0;
+    right: 0;
+
+    i {
+      font-size: 60px;
+    }
+  }
 }
 
 .link {
