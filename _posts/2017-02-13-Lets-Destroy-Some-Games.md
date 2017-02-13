@@ -3,7 +3,7 @@ layout: post_trvideo
 title: Lets Destroy Some Games
 author: <a href="/a/jamie/">Jamie Mansfield</a>
 published: Feb, 13 2017
-videoid: hWFnxxExKec
+videoid: sjVtQglBzM8
 ---
 In our first collaboration, we purchased some games and destruction ensued. Enjoy!
 
