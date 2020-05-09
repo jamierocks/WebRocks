@@ -2,7 +2,7 @@
 layout: post
 title: Simple Packs
 author: <a href="/a/jamie/">Jamie Mansfield</a>
-published: July, 02 2017
+published: 2017-08-02 12:00:00 +0100 UTC
 ---
 Having gone about playing the 3D-era Grand Theft Auto titles, I found out
 that an implicit requirement for doing so was: installing mods. Mods are

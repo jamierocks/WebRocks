@@ -5,7 +5,7 @@ author: <a href="/a/jamie/">Jamie Mansfield</a>
 published: 2013-12-29 17:34:00 +0000 UTC
 section: blog
 ---
-<p>(This blog post comes from one of my older blogs)</p>
+*This blog post comes from one of my older blogs*
 
 <h2><b>1. Watch_Dogs</b></h2>
 

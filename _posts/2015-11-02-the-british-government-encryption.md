@@ -5,7 +5,7 @@ author: <a href="/a/jamie/">Jamie Mansfield</a>
 published: 2015-11-02 17:14:00 +0000 UTC
 section: blog
 ---
-<p>(This is an import of a tweet I made with twitlonger a while back)</p>
+*This is an import of a [tweet I made with twitlonger] a while back*
 
 <p>So the British Government want to stop companies using advanced encryption techniques, so that they can prevent terrorists, etc from using the Internet as a safe zone to communicate. :/</p>
 
@@ -22,3 +22,5 @@ As proven by the recent hack on TalkTalk, hackers exist - be it in groups (such 
 Some companies have already been doing this for a large period of time, such as Google. This is why I use DuckDuckGo as my default search engine.</p>
 
 <p>I should mention that all the Government needs to access this information, is a warrant or a hacker to have made the information publically available.</p>
+
+[tweet I made with twitlonger]: https://www.twitlonger.com/show/n_1snpd38
